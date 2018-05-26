@@ -246,3 +246,28 @@ em.planet.right {
   }
 
 }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px) {
+
+    h1 {
+      width: 85vmin;
+    }
+
+    h1::before {
+      top: -18vmin;
+      left: 14vmin;
+      width: 47vmin;
+      height: 47vmin;
+    }
+
+    em.planet.left {
+      transform-origin: 29vmin 5vmin;
+    }
+
+    em.planet.right {
+      transform-origin: -16vmin 5vmin;
+    }
+
+}
